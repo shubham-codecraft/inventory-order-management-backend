@@ -460,30 +460,7 @@ alembic history
 
 ---
 
-## 🧪 Testing
-
-```bash
-# Run all tests
-poetry run pytest
-
-# Run with coverage
-poetry run pytest --cov=app
-
-# Run specific test file
-poetry run pytest tests/test_auth.py
-
-# Run with verbose output
-poetry run pytest -v
-```
-
----
-
-## 📜 License
-
-MIT
-
----
 
 ## 👤 Author
 
-Developer — Production-ready inventory management system
+Shubham Mane — Production-ready inventory management system
