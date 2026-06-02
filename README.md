@@ -89,18 +89,6 @@ HTTP Request
 [Database] — Persistence
 ```
 
-### SOLID Principles
-
-| Principle | Implementation |
-|-----------|-----------------|
-| **S** — Single Responsibility | Each service owns one domain (AuthService, OrderService, etc.). Each repository queries one model. |
-| **O** — Open/Closed | New business logic extends services, never modifies existing code. |
-| **L** — Liskov Substitution | All repositories implement `AbstractRepository[T]` with consistent interface. |
-| **I** — Interface Segregation | Services depend only on the repository methods they need. |
-| **D** — Dependency Inversion | FastAPI DI injects abstractions (repos) into services, never concrete implementations. |
-
----
-
 ## 📁 Core Modules Explained
 
 ### `app/main.py`
