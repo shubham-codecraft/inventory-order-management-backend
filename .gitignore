@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Conda
+.conda/
+conda-meta/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Poetry
+poetry.toml
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Type Checkers
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+
+# Alembic
+alembic.ini.bak
+
+# SQLite
+*.db
+*.sqlite3
+
+# Uploads / Media
+uploads/
+media/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Secrets
+secrets.json
+credentials.json
+
+# Docker
+docker-compose.override.yml
+
+# VS Code Debug
+.launch.json
+
+# Mac/Linux
+*.swp
+*.swo
